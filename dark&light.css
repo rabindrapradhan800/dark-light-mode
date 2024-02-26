@@ -1,0 +1,45 @@
+.nav{
+    background-color: aquamarine;
+ }
+ .nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+ }
+ li{
+    margin: 20px;
+    font-style: italic;
+    list-style: none;
+ }
+ li:hover{
+    text-decoration: underline;
+    color: crimson;
+    cursor: pointer;
+ }
+ button{
+    padding: 5px;
+    background-color:white;
+    color:black;
+    float:right;
+    border-radius: 10px;
+ }
+ button:hover{
+    background-color: crimson;
+    cursor: pointer;
+ }
+ @media only screen and (min-width: 200px) and (max-width:767px){
+    .nav ul{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+       background-color: rgb(84, 77, 77);
+    }
+    li{
+       margin: 5px;
+       color: white;
+    }
+ }
+ 
